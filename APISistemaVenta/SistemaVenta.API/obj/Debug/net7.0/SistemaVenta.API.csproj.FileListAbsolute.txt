@@ -1,0 +1,170 @@
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.Development.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.exe
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.deps.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.runtimeconfig.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.AssemblyReference.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.AssemblyInfoInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.AssemblyInfo.cs
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.CoreCompileInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.MvcApplicationPartsAssemblyInfo.cs
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.MvcApplicationPartsAssemblyInfo.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.SistemaVenta.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.build.SistemaVenta.API.props
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SistemaVenta.API.props
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SistemaVenta.API.props
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\scopedcss\bundle\SistemaVenta.API.styles.css
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.CopyComplete
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\refint\SistemaVenta.API.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.genruntimeconfig.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\ref\SistemaVenta.API.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Azure.Core.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.exe
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.deps.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.runtimeconfig.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.IOC.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.AssemblyInfo.cs
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.SistemaVenta.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.build.SistemaVenta.API.props
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SistemaVenta.API.props
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SistemaVenta.API.props
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\scopedcss\bundle\SistemaVenta.API.styles.css
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.csproj.CopyComplete
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\refint\SistemaVenta.API.dll
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.pdb
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.genruntimeconfig.cache
+C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\ref\SistemaVenta.API.dll
