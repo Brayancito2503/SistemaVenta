@@ -110,7 +110,7 @@ namespace SistemaVenta.Utility
 
             CreateMap<MateriaPrima, MateriaPrimaDTO>()
                 .ForMember(destino =>
-                    destino.idCategoria,
+                    destino.nombre,
                     opt => opt.MapFrom(origen => origen.IdCategoriaNavigation.Nombre)
                 )
                 .ForMember(destino =>
@@ -124,7 +124,7 @@ namespace SistemaVenta.Utility
 
             CreateMap<MateriaPrimaDTO, MateriaPrima>()
                .ForMember(destino =>
-                   destino.IdCategoriaNavigation,
+                   destino.nombre,
                    opt => opt.Ignore()
                )
                .ForMember(destino =>
@@ -133,7 +133,7 @@ namespace SistemaVenta.Utility
                )
                .ForMember(destino =>
                    destino.esActivo,
-                   opt => opt.MapFrom(origen => origen.esActivo == true )
+                   opt => opt.MapFrom(origen => origen.esActivo == 1 ? true : false)
                );
 
             #endregion MateriaPrima

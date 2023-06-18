@@ -13,9 +13,8 @@ using SistemaVenta.Model;
 
 namespace SistemaVenta.BLL.Servicios
 {
-    public class MateriaPrimaService
+    public class MateriaPrimaService : IMateriaPrimaService
     {
-
         private readonly IGenericRepository<MateriaPrima> _productoRepositorio;
         private readonly IMapper _mapper;
 

@@ -13,7 +13,7 @@ namespace SistemaVenta.DTO
         public string? nombre { get; set; }
         public float? cantidad { get; set; }
         public DateTime? fechaRegistro { get; set; }
-        public bool? esActivo { get; set; }
+        public int? esActivo { get; set; }
 
     }
 }
