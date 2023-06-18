@@ -30,8 +30,9 @@ namespace SistemaVenta.BLL.Servicios
         }
 
         private IQueryable<Venta> retornarVentas(IQueryable<Venta> tablaVenta, int restarCantidadDias) {
-        
-            DateTime? ultimaFecha = tablaVenta.OrderByDescending(v => v.FechaRegistro).Select(v => v.FechaRegistro).First();
+
+            //DateTime? ultimaFecha = tablaVenta.OrderByDescending(v => v.FechaRegistro).Select(v => v.FechaRegistro).First();
+            DateTime? ultimaFecha = tablaVenta.Select(v => v.FechaRegistro).First();
 
             ultimaFecha = ultimaFecha.Value.AddDays(restarCantidadDias);
 
@@ -44,7 +45,8 @@ namespace SistemaVenta.BLL.Servicios
 
             if (_ventaQuery.Count() > 0) {
 
-                var tablaVenta = retornarVentas(_ventaQuery, -7);
+                //var tablaVenta = retornarVentas(_ventaQuery, -7);
+                var tablaVenta = retornarVentas(_ventaQuery, 0);
                 total = tablaVenta.Count();
             }
 
