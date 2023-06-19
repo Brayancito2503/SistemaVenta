@@ -14,11 +14,12 @@ import { VentaService } from 'src/app/Services/venta.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 
 import { jsPDF } from "jspdf";
+
 import autoTable from 'jspdf-autotable'
 import { VentaComponent } from '../venta/venta.component';
 
 // Default export is a4 paper, portrait, using millimeters for units
-
+//simon
 
 
 export const MY_DATA_FORMATS={
