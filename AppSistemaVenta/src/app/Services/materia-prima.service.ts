@@ -10,7 +10,7 @@ import { MateriaPrima } from '../Interfaces/materia-prima';
   providedIn: 'root'
 })
 export class MateriaPrimaService {
-  private urlApi:string = environment.endpoint + "Materia Prima/";
+  private urlApi:string = environment.endpoint + "MateriaPrima/";
 
   constructor(private http:HttpClient) { }
 
