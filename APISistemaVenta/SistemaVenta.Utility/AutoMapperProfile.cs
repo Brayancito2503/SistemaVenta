@@ -110,30 +110,30 @@ namespace SistemaVenta.Utility
 
             CreateMap<MateriaPrima, MateriaPrimaDTO>()
                 .ForMember(destino =>
-                    destino.nombre,
+                    destino.DescripcionCategoria,
                     opt => opt.MapFrom(origen => origen.IdCategoriaNavigation.Nombre)
                 )
                 .ForMember(destino =>
-                    destino.cantidad,
-                    opt => opt.MapFrom(origen => Convert.ToString(origen.cantidad.Value, new CultureInfo("es-PE")))
+                    destino.Cantidad,
+                    opt => opt.MapFrom(origen => Convert.ToString(origen.Cantidad.Value, new CultureInfo("es-PE")))
                 )
                 .ForMember(destino =>
-                    destino.esActivo,
-                    opt => opt.MapFrom(origen => origen.esActivo == true ? 1 : 0)
+                    destino.EsActivo,
+                    opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
                 );
 
             CreateMap<MateriaPrimaDTO, MateriaPrima>()
                .ForMember(destino =>
-                   destino.nombre,
+                   destino.IdCategoriaNavigation,
                    opt => opt.Ignore()
                )
                .ForMember(destino =>
-                   destino.cantidad,
-                   opt => opt.MapFrom(origen => Convert.ToDecimal(origen.cantidad, new CultureInfo("es-PE")))
+                   destino.Cantidad,
+                   opt => opt.MapFrom(origen => Convert.ToDecimal(origen.Cantidad, new CultureInfo("es-PE")))
                )
                .ForMember(destino =>
-                   destino.esActivo,
-                   opt => opt.MapFrom(origen => origen.esActivo == 1 ? true : false)
+                   destino.EsActivo,
+                   opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
                );
 
             #endregion MateriaPrima

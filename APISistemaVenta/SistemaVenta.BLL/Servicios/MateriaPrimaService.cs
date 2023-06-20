@@ -47,7 +47,7 @@ namespace SistemaVenta.BLL.Servicios
             {
                 var materiaprimaCreada = await _productoRepositorio.Crear(_mapper.Map<MateriaPrima>(modelo));
 
-                if (materiaprimaCreada.idProducto == 0)
+                if (materiaprimaCreada.IdMateriaPrima == 0)
                     throw new TaskCanceledException("No se pudo crear");
 
                 return _mapper.Map<MateriaPrimaDTO>(materiaprimaCreada);
@@ -66,19 +66,19 @@ namespace SistemaVenta.BLL.Servicios
 
                 var productoModelo = _mapper.Map<MateriaPrima>(modelo);
                 var productoEncontrado = await _productoRepositorio.Obtener(u =>
-                    u.idProducto == productoModelo.idProducto
+                    u.IdMateriaPrima == productoModelo.IdMateriaPrima
                 );
 
                 if (productoEncontrado == null)
                     throw new TaskCanceledException("El producto no existe");
 
 
-                productoEncontrado.idCategoria = productoModelo.idCategoria;
-                productoEncontrado.idProducto = productoModelo.idProducto;
-                productoEncontrado.nombre = productoModelo.nombre;
-                productoEncontrado.cantidad = productoModelo.cantidad;
-                productoEncontrado.fechaRegistro = productoModelo.fechaRegistro;
-                productoEncontrado.esActivo = productoModelo.esActivo;
+                productoEncontrado.IdCategoria = productoModelo.IdCategoria;
+                productoEncontrado.IdMateriaPrima = productoModelo.IdMateriaPrima;
+                productoEncontrado.Nombre = productoModelo.Nombre;
+                productoEncontrado.Cantidad = productoModelo.Cantidad;
+                productoEncontrado.FechaRegistro = productoModelo.FechaRegistro;
+                productoEncontrado.EsActivo = productoModelo.EsActivo;
 
 
                 bool respuesta = await _productoRepositorio.Editar(productoEncontrado);
@@ -103,7 +103,7 @@ namespace SistemaVenta.BLL.Servicios
             try
             {
 
-                var productoEncontrado = await _productoRepositorio.Obtener(p => p.idProducto == id);
+                var productoEncontrado = await _productoRepositorio.Obtener(p => p.IdMateriaPrima == id);
 
                 if (productoEncontrado == null)
                     throw new TaskCanceledException("El producto no existe");

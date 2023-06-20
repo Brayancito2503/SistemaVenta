@@ -5,20 +5,21 @@ namespace SistemaVenta.Model;
 
 public partial class MateriaPrima
 {
-    public int idProducto { get; set; }
+    public int IdMateriaPrima { get; set; }
 
-    public int? idCategoria { get; set; }
+    public int? IdCategoria { get; set; }
 
-    public string? nombre { get; set; }
+    public string? Nombre { get; set; }
 
-    public float? cantidad { get; set; }
+    public double? Cantidad { get; set; }
 
-    public DateTime? fechaRegistro { get; set; }
+    public DateTime? FechaRegistro { get; set; }
 
-    public bool? esActivo { get; set; }
+    public bool? EsActivo { get; set; }
 
-    public virtual Categoria? IdCategoriaNavigation { get; set; }
+    public virtual CategoriaMateriaPrima? IdCategoriaNavigation { get; set; }
 
+    public virtual ICollection<ProductoMateriaPrima> ProductoMateriaPrimas { get; set; } = new List<ProductoMateriaPrima>();
 
+    public virtual ICollection<ProveedorMateriaPrima> ProveedorMateriaPrimas { get; set; } = new List<ProveedorMateriaPrima>();
 }
-

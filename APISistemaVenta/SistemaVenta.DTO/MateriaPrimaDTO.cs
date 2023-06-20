@@ -8,12 +8,20 @@ namespace SistemaVenta.DTO
 {
     public class MateriaPrimaDTO
     {
-        public int idProducto { get; set; }
-        public int? idCategoria { get; set; }
-        public string? nombre { get; set; }
-        public float? cantidad { get; set; }
-        public DateTime? fechaRegistro { get; set; }
-        public int? esActivo { get; set; }
+        public int IdMateriaPrima { get; set; }
+
+        public int? IdCategoria { get; set; }
+
+        public string? DescripcionCategoria { get; set; }
+
+        public string? Nombre { get; set; }
+
+        public double? Cantidad { get; set; }
+
+        public int? EsActivo { get; set; }
+
+      
+
 
     }
 }
