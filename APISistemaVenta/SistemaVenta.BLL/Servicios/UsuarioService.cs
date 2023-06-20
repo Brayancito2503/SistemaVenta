@@ -37,7 +37,8 @@ namespace SistemaVenta.BLL.Servicios
 
                 return _mapper.Map<List<UsuarioDTO>>(listaUsuarios);
             }
-            catch {
+            catch (Exception)
+            {
                 throw;
             }
 

@@ -21,5 +21,5 @@ public partial class MateriaPrima
 
     public virtual ICollection<ProductoMateriaPrima> ProductoMateriaPrimas { get; set; } = new List<ProductoMateriaPrima>();
 
-    public virtual ICollection<ProveedorMateriaPrima> ProveedorMateriaPrimas { get; set; } = new List<ProveedorMateriaPrima>();
+    //public virtual ICollection<ProveedorMateriaPrima> ProveedorMateriaPrimas { get; set; } = new List<ProveedorMateriaPrima>();
 }

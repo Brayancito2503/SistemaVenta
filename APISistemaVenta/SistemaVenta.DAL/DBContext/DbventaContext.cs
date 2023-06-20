@@ -19,13 +19,9 @@ public partial class DbventaContext : DbContext
     public virtual DbSet<Categoria> Categoria { get; set; }
     public virtual DbSet<MateriaPrima> MateriaPrimas { get; set; }
 
-    public virtual DbSet<NumerosTelefono> NumerosTelefonos { get; set; }
 
     public virtual DbSet<ProductoMateriaPrima> ProductoMateriaPrimas { get; set; }
 
-    public virtual DbSet<Proveedor> Proveedors { get; set; }
-
-    public virtual DbSet<ProveedorMateriaPrima> ProveedorMateriaPrimas { get; set; }
 
     public virtual DbSet<DetalleVenta> DetalleVenta { get; set; }
 
@@ -84,15 +80,6 @@ public partial class DbventaContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<NumerosTelefono>(entity =>
-        {
-            entity.HasKey(e => e.IdNumeroTelefono).HasName("PK__NumerosT__E691A94841BD1A70");
-
-            entity.Property(e => e.Numero)
-                .HasMaxLength(15)
-                .HasColumnName("numero");
-        });
-
         modelBuilder.Entity<MateriaPrima>(entity =>
         {
             entity.HasKey(e => e.IdMateriaPrima).HasName("PK__MateriaP__F8B56D412E1743FD");
@@ -132,79 +119,6 @@ public partial class DbventaContext : DbContext
             // Agrega la siguiente línea para ignorar la propiedad de navegación conflictiva
             entity.Ignore(d => d.IdMateriaNavigation);
         });
-
-        modelBuilder.Entity<Departamento>(entity =>
-        {
-            entity.HasKey(e => e.IdDepartamento).HasName("PK__Departam__787A433D874F6941");
-
-            entity.ToTable("Departamento");
-
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(30)
-                .HasColumnName("nombre");
-        });
-
-        modelBuilder.Entity<Municipio>(entity =>
-        {
-            entity.HasKey(e => e.IdMunicipio).HasName("PK__Municipi__610059781F343A5D");
-
-            entity.ToTable("Municipio");
-
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(30)
-                .HasColumnName("nombre");
-
-            entity.HasOne(d => d.IdDepartamentoNavigation).WithMany(p => p.Municipios)
-                .HasForeignKey(d => d.IdDepartamento)
-                .HasConstraintName("FK__Municipio__IdDep__04E4BC85");
-        });
-
-
-
-        modelBuilder.Entity<Proveedor>(entity =>
-        {
-            entity.HasKey(e => e.IdProveedor).HasName("PK__Proveedo__E8B631AFCC5E9FC6");
-
-            entity.ToTable("Proveedor");
-
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(30)
-                .HasColumnName("nombre");
-            entity.Property(e => e.Ruc)
-                .HasMaxLength(30)
-                .HasColumnName("RUC");
-
-            entity.HasOne(d => d.IdMunicipioNavigation).WithMany(p => p.Proveedors)
-                .HasForeignKey(d => d.IdMunicipio)
-                .HasConstraintName("FK__Proveedor__IdMun__0A9D95DB");
-
-            entity.HasOne(d => d.IdNumeroTelefonoNavigation).WithMany(p => p.Proveedors)
-                .HasForeignKey(d => d.IdNumeroTelefono)
-                .HasConstraintName("FK__Proveedor__IdNum__09A971A2");
-        });
-
-        modelBuilder.Entity<ProveedorMateriaPrima>(entity =>
-        {
-            entity.HasKey(e => e.IdProveedorMateriaPrima).HasName("PK__Proveedo__B035BCD23B2DC77C");
-
-            entity.ToTable("Proveedor_MateriaPrima");
-
-            entity.Property(e => e.IdProveedorMateriaPrima).HasColumnName("IdProveedor_MateriaPrima");
-            entity.Property(e => e.Cantidad).HasColumnName("cantidad");
-            entity.Property(e => e.FechaEntrega)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime");
-            entity.Property(e => e.Precio).HasColumnName("precio");
-
-            entity.HasOne(d => d.IdMateriaPrimaNavigation).WithMany(p => p.ProveedorMateriaPrimas)
-                .HasForeignKey(d => d.IdMateriaPrima)
-                .HasConstraintName("FK__Proveedor__IdMat__160F4887");
-
-            entity.HasOne(d => d.IdProveedorNavigation).WithMany(p => p.ProveedorMateriaPrimas)
-                .HasForeignKey(d => d.IdProveedor)
-                .HasConstraintName("FK__Proveedor__IdPro__17036CC0");
-        });
-
 
         modelBuilder.Entity<DetalleVenta>(entity =>
         {
