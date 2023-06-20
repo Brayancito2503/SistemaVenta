@@ -4,12 +4,12 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 
-import { ModalProductoComponent } from '../../Modales/modal-producto/modal-producto.component';
+import { ModalMateriaPrimaComponent } from '../../Modales/modal-materia-prima/modal-materia-prima.component';
 import { MateriaPrima } from 'src/app/Interfaces/materia-prima';
 import { MateriaPrimaService } from 'src/app/Services/materia-prima.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 import Swal from 'sweetalert2';
-import { ModalMateriaPrimaComponent } from '../../Modales/modal-materia-prima/modal-materia-prima.component';
+
 
 
 @Component({
@@ -19,7 +19,7 @@ import { ModalMateriaPrimaComponent } from '../../Modales/modal-materia-prima/mo
 })
 export class MateriaPrimaComponent implements OnInit, AfterViewInit{
 
-  columnasTabla: string[] = ['nombre','categoria','stock','precio','estado','acciones'];
+  columnasTabla: string[] = ['nombre','categoria','Fecha de Registro','Cantidad','estado'];
   dataInicio:MateriaPrima[] = [];
   dataListaMateriaPrima = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla! : MatPaginator;

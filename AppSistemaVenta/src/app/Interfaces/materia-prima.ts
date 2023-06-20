@@ -5,4 +5,6 @@ export interface MateriaPrima {
     cantidad:number,
     fechaRegistro:Date,
     esActivo:number
+    descripcionCategoria:string,
+    
 }

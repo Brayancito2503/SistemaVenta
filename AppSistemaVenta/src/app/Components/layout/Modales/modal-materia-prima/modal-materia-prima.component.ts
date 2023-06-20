@@ -56,20 +56,22 @@ export class ModalMateriaPrimaComponent implements OnInit {
         idCategoria: this.datosMateriaPrima.idCategoria,
         fechaRegistro: this.datosMateriaPrima.fechaRegistro,
         cantidad: this.datosMateriaPrima.cantidad,
-        esActivo: this.datosMateriaPrima.esActivo.toString()
+        esActivo: this.datosMateriaPrima.esActivo.toString(),
+        idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
       });
     }
   }
 
   guardarEditar_MateriaPrima() {
     const _materiaPrima: MateriaPrima = {
-      idProducto: this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
+      idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
+      nombre : this.formularioMateriaPrima.value.nombre,
       idCategoria: this.formularioMateriaPrima.value.idCategoria,
-      nombre: this.formularioMateriaPrima.value.nombre,
+      descripcionCategoria: "",
       cantidad: this.formularioMateriaPrima.value.cantidad,
-      fechaRegistro: this.formularioMateriaPrima.value.fechaRegistro,
-      esActivo: parseInt(this.formularioMateriaPrima.value.esActivo)
-    };
+      fechaRegistro  : this.formularioMateriaPrima.value.precio,
+      esActivo: parseInt(this.formularioMateriaPrima.value.esActivo),
+    }
 
     if (this.datosMateriaPrima == null) {
       this._materiaPrimaServicio.guardar(_materiaPrima).subscribe({
