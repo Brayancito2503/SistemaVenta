@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+@include mat.strong-focus-indicators((
+  border-style: solid,
+  border-width: 1px,
+  border-radius: 2px,
+));
+
+$my-primary: mat.define-palette(mat.$blue-palette, 600);
+$my-accent: mat.define-palette(mat.$green-palette, A700, A400, A700);
+
+$my-theme: mat.define-light-theme((
+ color: (
+   primary: $my-primary,
+   accent: $my-accent,
+ )
+));
+
+@include mat.all-component-themes($my-theme);
+@include mat.strong-focus-indicators-theme(#29B6F6);
