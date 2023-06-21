@@ -33,7 +33,6 @@ export class ModalProductoComponent implements OnInit {
     this.formularioProducto = this.fb.group({
       nombre: ['',Validators.required],
       idCategoria: ['',Validators.required],
-      stock: ['',Validators.required],
       precio: ['',Validators.required],
       esActivo: ['1',Validators.required]
     });
@@ -60,7 +59,6 @@ export class ModalProductoComponent implements OnInit {
 
         nombre: this.datosProducto.nombre,
         idCategoria: this.datosProducto.idCategoria,
-        stock: this.datosProducto.stock,
         precio: this.datosProducto.precio,
         esActivo : this.datosProducto.esActivo.toString()
       });
@@ -76,7 +74,6 @@ export class ModalProductoComponent implements OnInit {
       idCategoria: this.formularioProducto.value.idCategoria,
       descripcionCategoria: "",
       precio  : this.formularioProducto.value.precio,
-      stock: this.formularioProducto.value.stock,
       esActivo: parseInt(this.formularioProducto.value.esActivo),
     }
 

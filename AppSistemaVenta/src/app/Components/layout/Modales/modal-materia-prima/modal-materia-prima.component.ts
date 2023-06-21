@@ -29,7 +29,6 @@ export class ModalMateriaPrimaComponent implements OnInit {
     this.formularioMateriaPrima = this.fb.group({
       nombre: ['', Validators.required],
       idCategoria: ['', Validators.required],
-      fechaRegistro: ['', Validators.required],
       cantidad: ['', Validators.required],
       esActivo: ['1', Validators.required]
     });
@@ -54,7 +53,6 @@ export class ModalMateriaPrimaComponent implements OnInit {
       this.formularioMateriaPrima.patchValue({
         nombre: this.datosMateriaPrima.nombre,
         idCategoria: this.datosMateriaPrima.idCategoria,
-        fechaRegistro: this.datosMateriaPrima.fechaRegistro,
         cantidad: this.datosMateriaPrima.cantidad,
         esActivo: this.datosMateriaPrima.esActivo.toString(),
         idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
@@ -69,20 +67,35 @@ export class ModalMateriaPrimaComponent implements OnInit {
       idCategoria: this.formularioMateriaPrima.value.idCategoria,
       descripcionCategoria: "",
       cantidad: this.formularioMateriaPrima.value.cantidad,
-      fechaRegistro  : this.formularioMateriaPrima.value.precio,
       esActivo: parseInt(this.formularioMateriaPrima.value.esActivo),
     }
 
     if (this.datosMateriaPrima == null) {
       this._materiaPrimaServicio.guardar(_materiaPrima).subscribe({
         next: (data) => {
-          if (data.status) {
+          if (data.status) { 
             this._utilidadServicio.mostrarAlerta("Materia Prima fue registrada", "Exito");
-            this}
-          }
-        }
-      )
-    }
-  }
-}
+            this.modalActual.close("true")
+          }else
+            this._utilidadServicio.mostrarAlerta("No se pudo registrar materia prima","Error")
+        },
+        error:(e) => {}
+      })
 
+    }else{
+
+      this._materiaPrimaServicio.editar(_materiaPrima).subscribe({
+        next: (data) =>{
+          if(data.status){
+            this._utilidadServicio.mostrarAlerta("Materia Prima fue editada","Exito");
+            this.modalActual.close("true")
+          }else
+            this._utilidadServicio.mostrarAlerta("No se pudo editar materia prima","Error")
+        },
+        error:(e) => {}
+      })
+    }
+
+  }
+
+}

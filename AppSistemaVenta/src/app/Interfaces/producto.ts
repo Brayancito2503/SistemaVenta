@@ -3,7 +3,6 @@ export interface Producto {
     nombre:string,
     idCategoria:number,
     descripcionCategoria:string,
-    stock:number,
     precio:string,
     esActivo:number
 }
