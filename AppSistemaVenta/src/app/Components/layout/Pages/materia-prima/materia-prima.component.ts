@@ -92,7 +92,7 @@ export class MateriaPrimaComponent implements OnInit, AfterViewInit{
 
       if(resultado.isConfirmed){
 
-        this._MateriaPrimaServicio.eliminar(MateriaPrima.idProducto).subscribe({
+        this._MateriaPrimaServicio.eliminar(MateriaPrima.idMateriaPrima).subscribe({
           next:(data) =>{
 
             if(data.status){

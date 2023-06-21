@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Categoria } from 'src/app/Interfaces/categoria';
 import { MateriaPrima } from 'src/app/Interfaces/materia-prima';
-import { CategoriaService } from 'src/app/Services/categoria.service';
+import { CategoriaMateriPrimaService } from 'src/app/Services/categoriaMateriPrima.service';
 import { MateriaPrimaService } from 'src/app/Services/materia-prima.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 
@@ -22,7 +22,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
     private modalActual: MatDialogRef<ModalMateriaPrimaComponent>,
     @Inject(MAT_DIALOG_DATA) public datosMateriaPrima: MateriaPrima,
     private fb: FormBuilder,
-    private _categoriaServicio: CategoriaService,
+    private _categoriaServicio: CategoriaMateriPrimaService,
     private _materiaPrimaServicio: MateriaPrimaService,
     private _utilidadServicio: UtilidadService
   ) { 
@@ -41,6 +41,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
     this._categoriaServicio.lista().subscribe({
       next: (data) => {
         if (data.status) {
+          console.log(data)
           this.listaCategorias = data.value;
         }
       },
@@ -55,14 +56,14 @@ export class ModalMateriaPrimaComponent implements OnInit {
         idCategoria: this.datosMateriaPrima.idCategoria,
         cantidad: this.datosMateriaPrima.cantidad,
         esActivo: this.datosMateriaPrima.esActivo.toString(),
-        idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
+        //idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
       });
     }
   }
 
   guardarEditar_MateriaPrima() {
     const _materiaPrima: MateriaPrima = {
-      idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
+      idMateriaPrima : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idMateriaPrima,
       nombre : this.formularioMateriaPrima.value.nombre,
       idCategoria: this.formularioMateriaPrima.value.idCategoria,
       descripcionCategoria: "",

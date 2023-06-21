@@ -1,8 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
-
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-
 import { Categoria } from 'src/app/Interfaces/categoria';
 import { Producto } from 'src/app/Interfaces/producto';
 import { CategoriaService } from 'src/app/Services/categoria.service';
@@ -19,7 +17,6 @@ export class ModalProductoComponent implements OnInit {
   tituloAccion:string = "Agregar";
   botonAccion:string = "Guardar";
   listaCategorias: Categoria[] = [];
-
 
   constructor(
     private modalActual: MatDialogRef<ModalProductoComponent>,
@@ -43,20 +40,17 @@ export class ModalProductoComponent implements OnInit {
       this.botonAccion = "Actualizar";
     }
 
-
   this._categoriaServicio.lista().subscribe({
         next: (data) => {
           if(data.status) this.listaCategorias = data.value
         },
         error:(e) =>{}
   })
-
   }
 
   ngOnInit(): void {
     if(this.datosProducto != null){
       this.formularioProducto.patchValue({
-
         nombre: this.datosProducto.nombre,
         idCategoria: this.datosProducto.idCategoria,
         precio: this.datosProducto.precio,

@@ -138,6 +138,10 @@ namespace SistemaVenta.Utility
 
             #endregion MateriaPrima
 
+            #region CategoriaMateriaPrima
+            CreateMap<CategoriaMateriaPrima, CategoriaMateriaPrimaDTO>().ReverseMap();
+            #endregion
+
             #region DetalleVenta
             CreateMap<DetalleVenta, DetalleVentaDTO>()
                 .ForMember(destino =>

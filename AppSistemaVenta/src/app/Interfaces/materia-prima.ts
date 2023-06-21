@@ -1,5 +1,5 @@
 export interface MateriaPrima {
-    idProducto:number,
+    idMateriaPrima:number,
     idCategoria:number,
     descripcionCategoria:string,
     nombre:string,
