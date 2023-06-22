@@ -8,6 +8,7 @@ import { HistorialVentaComponent } from './Pages/historial-venta/historial-venta
 import { ProductoComponent } from './Pages/producto/producto.component';
 import { MateriaPrimaComponent } from './Pages/materia-prima/materia-prima.component';
 import { ReporteComponent } from './Pages/reporte/reporte.component';
+//import { ReporteMateriaComponent } from './Pages/reporte/reporteMateria.component'
 import { UsuarioComponent } from './Pages/usuario/usuario.component';
 import { VentaComponent } from './Pages/venta/venta.component';
 
@@ -23,7 +24,8 @@ const routes: Routes = [{
     {path:'materiaprima',component:MateriaPrimaComponent},
     {path:'venta',component:VentaComponent},
     {path:'historial_venta',component:HistorialVentaComponent},
-    {path:'reportes',component:ReporteComponent}
+    {path:'reportes',component:ReporteComponent},
+    //{path: 'reportesMateria',component:ReporteMateriaComponent}
   ]
 }];
 

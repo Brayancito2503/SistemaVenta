@@ -10,6 +10,7 @@ import { MateriaPrimaComponent } from './Pages/materia-prima/materia-prima.compo
 import { VentaComponent } from './Pages/venta/venta.component';
 import { HistorialVentaComponent } from './Pages/historial-venta/historial-venta.component';
 import { ReporteComponent } from './Pages/reporte/reporte.component';
+//import { ReporteMateriaComponent} from './Pages/reporte/reporteMateria.component'
 
 import { SharedModule } from 'src/app/Reutilizable/shared/shared.module';
 import { ModalUsuarioComponent } from './Modales/modal-usuario/modal-usuario.component';
@@ -28,6 +29,7 @@ import { ModalMateriaPrimaComponent } from './Modales/modal-materia-prima/modal-
     VentaComponent,
     HistorialVentaComponent,
     ReporteComponent,
+    //ReporteMateriaComponent,
     ModalUsuarioComponent,
     ModalProductoComponent,
     ModalDetalleVentaComponent,
