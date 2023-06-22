@@ -17,6 +17,8 @@ public partial class MateriaPrima
 
     public bool? EsActivo { get; set; }
 
+    public decimal? Precio { get; set; }
+
     public virtual CategoriaMateriaPrima? IdCategoriaNavigation { get; set; }
 
     public virtual ICollection<ProductoMateriaPrima> ProductoMateriaPrimas { get; set; } = new List<ProductoMateriaPrima>();

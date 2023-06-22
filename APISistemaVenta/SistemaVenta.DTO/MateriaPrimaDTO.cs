@@ -17,6 +17,7 @@ namespace SistemaVenta.DTO
         public string? Nombre { get; set; }
 
         public double? Cantidad { get; set; }
+        public decimal? Precio { get; set; }
 
         public int? EsActivo { get; set; }
 

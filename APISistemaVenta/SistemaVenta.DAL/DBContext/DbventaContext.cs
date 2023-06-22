@@ -97,7 +97,9 @@ public partial class DbventaContext : DbContext
             entity.Property(e => e.Nombre)
                 .HasMaxLength(30)
                 .HasColumnName("nombre");
-
+            entity.Property(e => e.Precio)
+               .HasColumnType("decimal(10, 2)")
+               .HasColumnName("precio");
             entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.MateriaPrimas)
                 .HasForeignKey(d => d.IdCategoria)
                 .HasConstraintName("FK__MateriaPr__IdCat__7E37BEF6");
