@@ -33,6 +33,14 @@
 
             <mat-grid-tile>
                 <mat-form-field appearance="outline">
+                    <mat-label>Precio</mat-label>
+                    <input matInput autocomplete="off" formControlName="precio" type="text">
+                    <mat-icon matSuffix>attach_money</mat-icon>
+                </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="esActivo"> 
                         <mat-option value="1">Activo</mat-option>

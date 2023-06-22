@@ -30,6 +30,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
       nombre: ['', Validators.required],
       idCategoria: ['', Validators.required],
       cantidad: ['', Validators.required],
+      precio:['', Validators.required],
       esActivo: ['1', Validators.required]
     });
 
@@ -55,6 +56,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
         nombre: this.datosMateriaPrima.nombre,
         idCategoria: this.datosMateriaPrima.idCategoria,
         cantidad: this.datosMateriaPrima.cantidad,
+        precio: this.datosMateriaPrima.precio,
         esActivo: this.datosMateriaPrima.esActivo.toString(),
         //idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
       });
@@ -68,6 +70,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
       idCategoria: this.formularioMateriaPrima.value.idCategoria,
       descripcionCategoria: "",
       cantidad: this.formularioMateriaPrima.value.cantidad,
+      precio: this.formularioMateriaPrima.value.precio,
       esActivo: parseInt(this.formularioMateriaPrima.value.esActivo),
     }
 

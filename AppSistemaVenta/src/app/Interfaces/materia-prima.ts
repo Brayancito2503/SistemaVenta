@@ -4,5 +4,6 @@ export interface MateriaPrima {
     descripcionCategoria:string,
     nombre:string,
     cantidad:number,
+    precio:number,
     esActivo:number 
 }

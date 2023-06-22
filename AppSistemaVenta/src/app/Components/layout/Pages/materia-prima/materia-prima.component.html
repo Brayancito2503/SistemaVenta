@@ -37,6 +37,11 @@
                     <td mat-cell *matCellDef="let element"> {{element.cantidad}} </td>
                 </ng-container>
 
+                <ng-container matColumnDef="precio">
+                    <th mat-header-cell *matHeaderCellDef> Precio</th>
+                    <td mat-cell *matCellDef="let element"> {{element.precio}} </td>
+                </ng-container>
+
                 <ng-container matColumnDef="estado">
                     <th mat-header-cell *matHeaderCellDef> Estado</th>
                     <td mat-cell *matCellDef="let element"> {{element.esActivo == 1 ? 'Activo' : 'No activo'}} </td>

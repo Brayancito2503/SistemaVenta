@@ -19,7 +19,7 @@ import Swal from 'sweetalert2';
 })
 export class MateriaPrimaComponent implements OnInit, AfterViewInit{
 
-  columnasTabla: string[] = ['nombre','categoria','Cantidad','estado', 'Acciones'];
+  columnasTabla: string[] = ['nombre','categoria','Cantidad','precio','estado', 'Acciones'];
   dataInicio:MateriaPrima[] = [];
   dataListaMateriaPrima = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla! : MatPaginator;
