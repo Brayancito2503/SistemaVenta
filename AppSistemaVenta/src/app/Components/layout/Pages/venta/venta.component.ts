@@ -37,6 +37,7 @@ export class VentaComponent implements OnInit {
   retornarProductosPorFiltro(busqueda:any):Producto[]{
     const valorBuscado = typeof busqueda === "string" ? busqueda.toLocaleLowerCase() : busqueda.nombre.toLocaleLowerCase();
 
+    //console.log(this.listaProductos.filter(item => item.nombre.toLocaleLowerCase().includes(valorBuscado)))
     return this.listaProductos.filter(item => item.nombre.toLocaleLowerCase().includes(valorBuscado));
   }
 
@@ -57,7 +58,10 @@ export class VentaComponent implements OnInit {
     this._productoServicio.lista().subscribe({
       next: (data) => {
         if(data.status){
+          console.log(data)
           const lista = data.value as Producto[];
+          // this.listaProductos = lista.filter(p => p.esActivo == 1 && p.stock > 0);
+          this.listaProductos = lista.filter(p => p.esActivo == 1);
         }
       },
       error:(e) =>{}

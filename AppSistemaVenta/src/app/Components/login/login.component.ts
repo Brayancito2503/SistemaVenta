@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder,FormGroup,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Login } from 'src/app/Interfaces/login';
+import { Usuario } from 'src/app/Interfaces/usuario'
 import { UsuarioService } from 'src/app/Services/usuario.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 
@@ -16,7 +17,7 @@ export class LoginComponent implements OnInit {
   formularioLogin:FormGroup;
   ocultarPassword:boolean = true;
   mostrarLoading:boolean= false;
-
+  listaUsuario:Usuario[]=[];
   constructor(
     private fb:FormBuilder,
     private router: Router,
@@ -39,13 +40,18 @@ export class LoginComponent implements OnInit {
 
     const request: Login ={
       correo : this.formularioLogin.value.email,
-      clave : this.formularioLogin.value.password
+      clave : this.formularioLogin.value.password,
     }
 
     this._usuarioServicio.iniciarSesion(request).subscribe({
       next: (data) => {
         if(data.status){
+          console.log(data)
+          
           this._utilidadServicio.guardarSesionUsuario(data.value);
+         
+          // (p => p.esActivo == 1 && p.stock > 0);
+          // this.router.navigate(["pages"])
           this.router.navigate(["pages"])
         }else
           this._utilidadServicio.mostrarAlerta("No se encontraron coincidencias","Opps!")

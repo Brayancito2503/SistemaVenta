@@ -18,7 +18,7 @@
 
                 <mat-form-field appearance="fill" *ngIf="formularioBusqueda.value.buscarPor == 'numero'">
                     <mat-label>Numero Orden</mat-label>
-                    <input matInput autocomplete="off" formControlName="numero">
+                    <input matInput autocomplete="oof" formControlName="numero">
                 </mat-form-field>
 
 
@@ -49,10 +49,7 @@
         <mat-divider></mat-divider>
 
         
-        <mat-form-field appearance="standard" class="input-filter" >
-            <mat-label>Buscar</mat-label>
-            <input matInput (keyup)="aplicarFiltroTabla($event)" #input>
-        </mat-form-field>
+        
 
         <div class="mat-elevation-z2">
 
@@ -93,9 +90,7 @@
                 <tr mat-header-row *matHeaderRowDef="columnasTabla"></tr>
                 <tr mat-row *matRowDef="let row; columns : columnasTabla;"></tr>
 
-                <tr class="mat-row" *matNoDataRow>
-                    <td class="mat-cell" colspan="4">No hay datos que coincidan con el filtro "{{input.value}}"</td>
-                </tr>
+                
 
             </table>
 

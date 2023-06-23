@@ -17,12 +17,18 @@ export class LayoutComponent implements OnInit {
   correoUsuario:string = '';
   rolUsuario:string = '';
 
+  mostrarImagenBienvenida:boolean = true;
 
   constructor(
     private router:Router,
     private _menuServicio : MenuService,
     private _utilidadServicio: UtilidadService
   ) { }
+
+  navegarAOpcion() {
+    this.mostrarImagenBienvenida = false;
+    // Resto de tu código para la navegación
+}
 
   ngOnInit(): void {
 
@@ -36,7 +42,9 @@ export class LayoutComponent implements OnInit {
 
       this._menuServicio.lista(usuario.idUsuario).subscribe({
         next: (data) =>{
+          console.log(data)
           if(data.status) this.listaMenus = data.value;
+          console.log(data.value)
         },
         error:(e)=>{}
       })

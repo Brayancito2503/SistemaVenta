@@ -6,7 +6,7 @@ import { InicioComponent } from './Components/layout/Pages/inicio/iniciolugo.com
 const routes: Routes = [
   {path:'',component:LoginComponent,pathMatch:"full"},
   {path:'login',component:LoginComponent,pathMatch:"full"},
-  { path: 'Inicio', component: InicioComponent},
+  {path:'Inicio', component: InicioComponent},
   {path:'pages',loadChildren: () => import("./Components/layout/layout.module").then(m => m.LayoutModule)},
   {path:'**',redirectTo:'login',pathMatch:"full"}
 ];

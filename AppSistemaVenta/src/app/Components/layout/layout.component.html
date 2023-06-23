@@ -31,27 +31,58 @@
     <mat-sidenav #sidenav opened="true" mode="side" style="width: 200px;"  >
         <mat-nav-list>
 
-            <mat-list-item *ngFor="let menu of listaMenus"   [routerLink]="menu.url">
+            <mat-list-item *ngFor="let menu of listaMenus"   [routerLink]="menu.url" (click)="navegarAOpcion()">
                 <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
                 <div mat-line>{{menu.nombre}}</div>
             </mat-list-item>
 
 
-            <mat-list-item routerLink="/pages/materiaprima">
+            <!-- <mat-list-item routerLink="/pages/materiaprima">
                 <mat-icon mat-list-icon>assignment</mat-icon>
                 <div mat-line>Materia Prima</div>
-            </mat-list-item>
+            </mat-list-item> -->
 
 
         </mat-nav-list>
 
     </mat-sidenav>
 
+    <style>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 1fr; 
+            justify-items: center; 
+            align-items: center;
+            height: 100vh;
+            background-image: url("../../../assets/San-Juan-del-sur-Nicaragua.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .texto{
+            background-color: aquamarine;
+            columns: red;
+        }
+        .imagen{
+            width: 50%;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+
     <mat-sidenav-content>
         <div style="height: 90vh;">
-            <router-outlet></router-outlet>
-        </div>
 
+            <div class="contenedor" *ngIf="mostrarImagenBienvenida">
+               
+                <div class="imagen">
+                    <img  src="../../../assets/laslugo.png" alt="Imagen de bienvenida">
+                </div>
+            </div>
+            <router-outlet> </router-outlet>
+           
+        </div>
+    
     </mat-sidenav-content>
 
 </mat-sidenav-container>
