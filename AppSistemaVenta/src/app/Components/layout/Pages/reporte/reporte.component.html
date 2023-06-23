@@ -33,18 +33,17 @@
             </div>
         </form>
     
-        <button mat-raised-button color="warn" 
-                    
+        <button style="margin-right: 15px;" mat-raised-button color="warn"
         (click)="buscarMateria()"
-                    >
-                        <mat-icon>feed</mat-icon> Exportar PDF Materia Prima
-                </button>
+        >
+            <mat-icon>feed</mat-icon> Exportar PDF Materia Prima
+        </button>
 
         <button mat-raised-button color="warn" 
             [disabled]="listaVentasReporte.length < 1"
             (click)="exportarExcel()"
             >
-                <mat-icon>feed</mat-icon> Exportar PDF
+                <mat-icon>feed</mat-icon> Exportar PDF Productos
         </button>
 
         <div class="mat-elevation-z2" style="margin-top: 15px;">
