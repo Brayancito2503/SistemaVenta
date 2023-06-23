@@ -11,6 +11,7 @@ import { ReporteComponent } from './Pages/reporte/reporte.component';
 //import { ReporteMateriaComponent } from './Pages/reporte/reporteMateria.component'
 import { UsuarioComponent } from './Pages/usuario/usuario.component';
 import { VentaComponent } from './Pages/venta/venta.component';
+import { InicioComponent } from './Pages/inicio/iniciolugo.component';
 
 
 
@@ -25,6 +26,7 @@ const routes: Routes = [{
     {path:'venta',component:VentaComponent},
     {path:'historial_venta',component:HistorialVentaComponent},
     {path:'reportes',component:ReporteComponent},
+    {path:'inicio',component:InicioComponent},
     //{path: 'reportesMateria',component:ReporteMateriaComponent}
   ]
 }];

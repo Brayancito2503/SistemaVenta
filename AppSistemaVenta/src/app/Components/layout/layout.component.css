@@ -5,3 +5,7 @@
 .mat-sidenav{
     background-color: rgba(0, 145, 255, 0.175);
 }
+
+.mat-sidenav-container{
+    background-color: rgba(0, 145, 255, 0.115);
+}

@@ -17,6 +17,7 @@ import { ModalUsuarioComponent } from './Modales/modal-usuario/modal-usuario.com
 import { ModalProductoComponent } from './Modales/modal-producto/modal-producto.component';
 import { ModalDetalleVentaComponent } from './Modales/modal-detalle-venta/modal-detalle-venta.component';
 import { ModalMateriaPrimaComponent } from './Modales/modal-materia-prima/modal-materia-prima.component';
+import { InicioComponent } from './Pages/inicio/iniciolugo.component';
 
 
 
@@ -34,6 +35,7 @@ import { ModalMateriaPrimaComponent } from './Modales/modal-materia-prima/modal-
     ModalProductoComponent,
     ModalDetalleVentaComponent,
     ModalMateriaPrimaComponent,
+    InicioComponent,
   ],
   imports: [
     CommonModule,
