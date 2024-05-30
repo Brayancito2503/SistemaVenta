@@ -49,3 +49,4 @@ C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVe
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\refint\SistemaVenta.Utility.dll
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\SistemaVenta.Utility.pdb
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\ref\SistemaVenta.Utility.dll
+C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\SistemaVenta.Utility.sourcelink.json

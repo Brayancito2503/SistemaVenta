@@ -27,7 +27,7 @@
                 <mat-grid-tile>
                     <mat-form-field class="full-width" appearance="fill" style="margin-left: 40px;">
                         <mat-label>Cantidad</mat-label>
-                        <input matInput type="number" formControlName="cantidad">
+                        <input min="1" max="200" matInput type="number" formControlName="cantidad">
                     </mat-form-field>
                 </mat-grid-tile>
 
@@ -47,7 +47,7 @@
             <mat-grid-tile>
                 <mat-form-field class="full-width" appearance="fill" style="margin-left:40px">
                     <mat-label>Tipo de pago</mat-label>
-                    <mat-select [(value)]="tipodePagoPorDefecto"> 
+                    <mat-select [(value)]="tipodePagoPorDefecto">
                         <mat-option value="Efectivo">Efectivo</mat-option>
                         <mat-option value="Tarjeta">Tarjeta</mat-option>
                     </mat-select>
@@ -57,7 +57,7 @@
 
             <mat-grid-tile>
                 <button mat-raised-button color="accent" style="width: 80%;">
-                    Total: S/. {{totalPagar.toFixed(2)}}
+                    Total: {{totalPagar.toFixed(2) | currency:'NIO':'C$ '}}
                 </button>
             </mat-grid-tile>
         </mat-grid-list>
@@ -78,16 +78,16 @@
 
                 <ng-container matColumnDef="precio">
                     <th mat-header-cell *matHeaderCellDef> Precio</th>
-                    <td mat-cell *matCellDef="let element"> {{element.precioTexto}} </td>
+                    <td mat-cell *matCellDef="let element">{{element.precioTexto | currency:'NIO':'C$ '}} </td>
                 </ng-container>
 
                 <ng-container matColumnDef="total">
                     <th mat-header-cell *matHeaderCellDef> Total</th>
-                    <td mat-cell *matCellDef="let element"> {{element.totalTexto}} </td>
+                    <td mat-cell *matCellDef="let element">{{element.totalTexto | currency:'NIO':'C$ '}} </td>
                 </ng-container>
 
                 <ng-container matColumnDef="accion">
-                    <th mat-header-cell *matHeaderCellDef style="width: 80px;"></th>
+                    <th mat-header-cell *matHeaderCellDef style="width: 80px;">Acciones</th>
                     <td mat-cell *matCellDef="let element">
                         <button mat-icon-button color="warn" (click)="eliminarProducto(element)">
                             <mat-icon>delete</mat-icon>
@@ -115,7 +115,7 @@
 
             </mat-grid-tile>
         </mat-grid-list>
-            
+
     </mat-card-content>
 
 </mat-card>

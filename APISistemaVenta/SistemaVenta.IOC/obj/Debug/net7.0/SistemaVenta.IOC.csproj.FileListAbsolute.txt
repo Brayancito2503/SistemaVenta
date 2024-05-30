@@ -67,3 +67,4 @@ C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVe
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\refint\SistemaVenta.IOC.dll
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.pdb
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\ref\SistemaVenta.IOC.dll
+C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.sourcelink.json

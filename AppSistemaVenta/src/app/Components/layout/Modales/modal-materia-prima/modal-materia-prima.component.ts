@@ -25,12 +25,12 @@ export class ModalMateriaPrimaComponent implements OnInit {
     private _categoriaServicio: CategoriaMateriPrimaService,
     private _materiaPrimaServicio: MateriaPrimaService,
     private _utilidadServicio: UtilidadService
-  ) { 
+  ) {
     this.formularioMateriaPrima = this.fb.group({
       nombre: ['', Validators.required],
       idCategoria: ['', Validators.required],
       cantidad: ['', Validators.required],
-      precio:['', Validators.required],
+      precio:[0, Validators.required],
       esActivo: ['1', Validators.required]
     });
 
@@ -70,14 +70,14 @@ export class ModalMateriaPrimaComponent implements OnInit {
       idCategoria: this.formularioMateriaPrima.value.idCategoria,
       descripcionCategoria: "",
       cantidad: this.formularioMateriaPrima.value.cantidad,
-      precio: this.formularioMateriaPrima.value.precio,
+      precio: this.formularioMateriaPrima.value.precio.toString(),
       esActivo: parseInt(this.formularioMateriaPrima.value.esActivo),
     }
 
     if (this.datosMateriaPrima == null) {
       this._materiaPrimaServicio.guardar(_materiaPrima).subscribe({
         next: (data) => {
-          if (data.status) { 
+          if (data.status) {
             this._utilidadServicio.mostrarAlerta("Materia Prima fue registrada", "Exito");
             this.modalActual.close("true")
           }else

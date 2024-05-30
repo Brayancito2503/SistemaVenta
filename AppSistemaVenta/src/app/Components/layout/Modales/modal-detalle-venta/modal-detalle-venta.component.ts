@@ -19,13 +19,13 @@ export class ModalDetalleVentaComponent implements OnInit {
   detalleVenta: DetalleVenta[] = [];
   columnasTabla :string[] = ['producto','cantidad','precio','total']
 
-  constructor(  @Inject(MAT_DIALOG_DATA) public _venta: Venta) { 
+  constructor(  @Inject(MAT_DIALOG_DATA) public _venta: Venta) {
 
     this.fechaRegistro = _venta.fechaRegistro!;
     this.numeroDocumento = _venta.numeroDocumento!;
     this.tipoPago = _venta.tipoPago;
     this.total = _venta.totalTexto;
-    this.detalleVenta = _venta.detalleVenta; 
+    this.detalleVenta = _venta.detalleVenta;
 
   }
 

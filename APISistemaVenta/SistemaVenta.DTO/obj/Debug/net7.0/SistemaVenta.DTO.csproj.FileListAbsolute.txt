@@ -25,7 +25,6 @@ C:\Users\Dell\Documents\BASE DE DATOS\BD PROYECTO\APISistemaVenta\SistemaVenta.D
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.deps.json
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.dll
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.pdb
-C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.csproj.AssemblyReference.cache
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfoInputs.cache
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfo.cs
@@ -34,3 +33,4 @@ C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVe
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\refint\SistemaVenta.DTO.dll
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll
+C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.sourcelink.json

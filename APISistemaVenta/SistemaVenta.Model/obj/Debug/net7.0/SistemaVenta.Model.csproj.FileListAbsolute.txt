@@ -40,3 +40,4 @@ C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVe
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
+C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.sourcelink.json

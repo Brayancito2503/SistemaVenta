@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { LayoutComponent } from '../../layout.component'
 import { Chart,registerables } from 'chart.js';
 import { DashBoardService } from 'src/app/Services/dash-board.service';
 Chart.register(...registerables);
@@ -19,7 +19,8 @@ export class DashBoardComponent implements OnInit {
     private _dashboardServicio: DashBoardService
   ) { }
 
-
+  
+  
   mostrarGrafico(labelGrafico:any[],dataGrafico:any[]){
 
     const chartBarras = new Chart('chartBarras',{

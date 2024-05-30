@@ -9,7 +9,7 @@
             <div class="campos-formulario">
                 <mat-form-field appearance="fill">
                     <mat-label>Buscar por</mat-label>
-                    <mat-select formControlName="buscarPor"> 
+                    <mat-select formControlName="buscarPor">
                         <mat-option *ngFor="let item of opcionesBusqueda" [value]="item.value">
                             {{item.descripcion}}
                         </mat-option>
@@ -36,7 +36,7 @@
                     <mat-datepicker #picker2></mat-datepicker>
                 </mat-form-field>
 
-                <button mat-raised-button color="primary" 
+                <button mat-raised-button color="primary"
                     [disabled]="formularioBusqueda.invalid"
                     type="submit"
                     class="boton-buscar"
@@ -48,8 +48,11 @@
 
         <mat-divider></mat-divider>
 
-        
-        
+
+        <!-- <mat-form-field appearance="standard" class="input-filter" >
+            <mat-label>Buscar</mat-label>
+            <input matInput (keyup)="aplicarFiltroTabla($event)" #input>
+        </mat-form-field> -->
 
         <div class="mat-elevation-z2">
 
@@ -72,14 +75,14 @@
 
                 <ng-container matColumnDef="total">
                     <th mat-header-cell *matHeaderCellDef> Total</th>
-                    <td mat-cell *matCellDef="let element"> {{element.totalTexto}} </td>
+                    <td mat-cell *matCellDef="let element"> {{element.totalTexto | currency:'NIO':'C$ '}} </td>
                 </ng-container>
 
                 <ng-container matColumnDef="accion">
-                    <th mat-header-cell *matHeaderCellDef style="width: 80px;"></th>
+                    <th mat-header-cell *matHeaderCellDef style="width: 80px;">Acciones</th>
                     <td mat-cell *matCellDef="let element">
-                        
-                        <button mat-icon-button color="primary" (click)="verDetalleVenta(element)" 
+
+                        <button mat-icon-button color="primary" (click)="verDetalleVenta(element)"
                             matTooltip="Ver detalle"
                         >
                             <mat-icon>visibility</mat-icon>
@@ -90,7 +93,9 @@
                 <tr mat-header-row *matHeaderRowDef="columnasTabla"></tr>
                 <tr mat-row *matRowDef="let row; columns : columnasTabla;"></tr>
 
-                
+                <!-- <tr class="mat-row" *matNoDataRow>
+                    <td class="mat-cell" colspan="4">No hay datos que coincidan con el filtro "{{input.value}}"</td>
+                </tr> -->
 
             </table>
 

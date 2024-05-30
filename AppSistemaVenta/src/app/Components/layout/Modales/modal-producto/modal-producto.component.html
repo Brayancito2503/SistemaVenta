@@ -16,7 +16,7 @@
             <mat-grid-tile>
                 <mat-form-field appearance="outline">
                     <mat-label>Categoria</mat-label>
-                    <mat-select formControlName="idCategoria"> 
+                    <mat-select formControlName="idCategoria">
                         <mat-option *ngFor="let item of listaCategorias" [value]="item.idCategoria">
                             {{item.nombre}}
                         </mat-option>
@@ -34,17 +34,17 @@
             </mat-grid-tile>-->
 
             <mat-grid-tile>
-                <mat-form-field appearance="outline">
-                    <mat-label>Precio</mat-label>
-                    <input matInput autocomplete="off" formControlName="precio" type="text">
-                    <mat-icon matSuffix>attach_money</mat-icon>
-                </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Precio</mat-label>
+                <input min="0" max="2000" matInput autocomplete="off" formControlName="precio" type="number">
+                <mat-icon matSuffix>payments</mat-icon>
+            </mat-form-field>
             </mat-grid-tile>
 
             <mat-grid-tile>
                 <mat-form-field appearance="outline">
                     <mat-label>Estado</mat-label>
-                    <mat-select formControlName="esActivo"> 
+                    <mat-select formControlName="esActivo">
                         <mat-option value="1">Activo</mat-option>
                         <mat-option value="0">No activo</mat-option>
                     </mat-select>

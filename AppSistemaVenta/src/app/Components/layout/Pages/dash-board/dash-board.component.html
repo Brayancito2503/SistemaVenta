@@ -13,7 +13,7 @@
                             <mat-icon color="accent">payments</mat-icon>
                         </div>
                         <mat-card-title>Total Ingresos</mat-card-title>
-                        <mat-card-subtitle>S/. {{totalIngresos}}</mat-card-subtitle>
+                        <mat-card-subtitle>{{totalIngresos | currency:'NIO':'C$ '}}</mat-card-subtitle>
                     </mat-card-header>
                 </mat-card>
             </mat-grid-tile>

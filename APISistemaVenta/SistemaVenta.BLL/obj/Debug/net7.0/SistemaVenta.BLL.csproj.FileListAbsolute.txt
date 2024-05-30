@@ -61,3 +61,4 @@ C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVe
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\refint\SistemaVenta.BLL.dll
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.pdb
 C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\ref\SistemaVenta.BLL.dll
+C:\Users\braya\Downloads\SistemaLasLugo\SistemaLasLugo\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.sourcelink.json

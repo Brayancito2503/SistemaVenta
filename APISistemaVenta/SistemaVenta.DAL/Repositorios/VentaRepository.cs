@@ -28,12 +28,33 @@ namespace SistemaVenta.DAL.Repositorios
             {
                 try {
 
-                    foreach (DetalleVenta dv in modelo.DetalleVenta) {
-                        
-                        Producto producto_encontrado = _dbcontext.Productos.Where(p => p.IdProducto == dv.IdProducto).First();
+                    foreach (DetalleVenta dv in modelo.DetalleVenta)
+                    {
 
-                        producto_encontrado.Stock = producto_encontrado.Stock - dv.Cantidad;
-                        _dbcontext.Productos.Update(producto_encontrado);
+                        var result = (from dvs in _dbcontext.DetalleVenta
+                                      join p in _dbcontext.Productos on dvs.IdProducto equals p.IdProducto
+                                      join pm in _dbcontext.ProductoMateriaPrimas on p.IdProducto equals pm.IdProducto
+                                      join mp in _dbcontext.MateriaPrimas on pm.IdMateriaPrima equals mp.IdMateriaPrima
+                                      where dvs.IdProducto == dv.IdProducto
+                                      orderby dvs.IdDetalleVenta
+                                      select new MateriaPrima
+                                      {
+                                          IdMateriaPrima = mp.IdMateriaPrima,
+                                          Cantidad = mp.Cantidad,
+                                      }).Distinct().ToList();
+
+
+                        foreach (var producto_encontrado in result)
+                        {
+                            var materiaPrima = _dbcontext.MateriaPrimas.FirstOrDefault(mp => mp.IdMateriaPrima == producto_encontrado.IdMateriaPrima);
+                            if (materiaPrima != null)
+                            {
+                                materiaPrima.Cantidad -= dv.Cantidad; // Resta la cantidad vendida
+                            }
+                        }
+
+
+                        //_dbcontext.MateriaPrimas.Update(materiaPrima);
                     }
                     await _dbcontext.SaveChangesAsync();
 

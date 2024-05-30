@@ -25,12 +25,12 @@ export class ModalProductoComponent implements OnInit {
     private _categoriaServicio: CategoriaService,
     private _productoServicio: ProductoService,
     private _utilidadServicio: UtilidadService
-  ) { 
+  ) {
 
     this.formularioProducto = this.fb.group({
       nombre: ['',Validators.required],
       idCategoria: ['',Validators.required],
-      precio: ['',Validators.required],
+      precio: [0,Validators.required],
       esActivo: ['1',Validators.required]
     });
 
@@ -54,7 +54,7 @@ export class ModalProductoComponent implements OnInit {
         nombre: this.datosProducto.nombre,
         idCategoria: this.datosProducto.idCategoria,
         precio: this.datosProducto.precio,
-        esActivo : this.datosProducto.esActivo.toString()
+        esActivo : this.datosProducto.esActivo
       });
 
     }
@@ -67,7 +67,7 @@ export class ModalProductoComponent implements OnInit {
       nombre : this.formularioProducto.value.nombre,
       idCategoria: this.formularioProducto.value.idCategoria,
       descripcionCategoria: "",
-      precio  : this.formularioProducto.value.precio,
+      precio  : this.formularioProducto.value.precio.toString(),
       esActivo: parseInt(this.formularioProducto.value.esActivo),
     }
 
