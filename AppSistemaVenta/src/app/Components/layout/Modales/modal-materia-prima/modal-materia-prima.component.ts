@@ -57,7 +57,7 @@ export class ModalMateriaPrimaComponent implements OnInit {
         idCategoria: this.datosMateriaPrima.idCategoria,
         cantidad: this.datosMateriaPrima.cantidad,
         precio: this.datosMateriaPrima.precio,
-        esActivo: this.datosMateriaPrima.esActivo.toString(),
+        esActivo: this.datosMateriaPrima.esActivo,
         //idProducto : this.datosMateriaPrima == null ? 0 : this.datosMateriaPrima.idProducto,
       });
     }

@@ -1,91 +1,93 @@
 <mat-toolbar color="primary">
-    <mat-toolbar-row>
-        <!-- <h1>La Sazón de las Lugo</h1> -->
-        <!-- este es el logo con color blanco -->
-         <!-- lorem de purebshdahsdhashdh -->
-        <!-- <div style="width: 200px;height: 70px ;display: flex; align-items: center; background-color: white;position: absolute; top:0; left: 0;">
+  <mat-toolbar-row>
+    <!-- <h1>La Sazón de las Lugo</h1> -->
+    <!-- este es el logo con color blanco -->
+    <!-- lorem de purebshdahsdhashdh -->
+    <!-- <div style="width: 200px;height: 70px ;display: flex; align-items: center; background-color: white;position: absolute; top:0; left: 0;">
             <img style="width: 100%; height: 150%;" src="../../../assets/laslugo.png" alt="Imagen SVG">
             <button mat-icon-button (click)="sidenav.toggle();" style="color: black;">
                 <mat-icon>menu</mat-icon>
             </button>
         </div> -->
 
-        <img style="height: 150%; width: 10%;" src="../../../assets/laslugo.png" alt="Imagen SVG">
+    <img style="height: 150%; width: 10%;" src="../../../assets/laslugo.png" alt="Imagen SVG">
 
-        <button mat-icon-button (click)="sidenav.toggle();">
-            <mat-icon>menu</mat-icon>
-        </button>
+    <button mat-icon-button (click)="sidenav.toggle();">
+      <mat-icon>menu</mat-icon>
+    </button>
 
-        <span style="flex: 1 1 auto;"></span>
-        <label style="font-size: 14px; margin-right: 20px;">
-            {{correoUsuario}} | {{rolUsuario}}
-        </label>
-        <button mat-icon-button (click)="cerrarSesion()">
-            <mat-icon>logout</mat-icon>
-        </button>
+    <span style="flex: 1 1 auto;"></span>
+    <label style="font-size: 14px; margin-right: 20px;">
+      {{correoUsuario}} | {{rolUsuario}}
+    </label>
+    <button mat-icon-button (click)="cerrarSesion()">
+      <mat-icon>logout</mat-icon>
+    </button>
 
-    </mat-toolbar-row>
+  </mat-toolbar-row>
 </mat-toolbar>
 
 <mat-sidenav-container>
-    <mat-sidenav #sidenav opened="true" mode="side" style="width: 200px;"  >
-        <mat-nav-list>
+  <mat-sidenav #sidenav opened="true" mode="side" style="width: 200px;">
+    <mat-nav-list>
 
-            <mat-list-item *ngFor="let menu of listaMenus"   [routerLink]="menu.url" (click)="navegarAOpcion()">
-                <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
-                <div mat-line>{{menu.nombre}}</div>
-            </mat-list-item>
+      <mat-list-item *ngFor="let menu of listaMenus" [routerLink]="menu.url" (click)="navegarAOpcion()">
+        <mat-icon mat-list-icon>{{menu.icono}}</mat-icon>
+        <div mat-line>{{menu.nombre}}</div>
+      </mat-list-item>
 
 
-            <!-- <mat-list-item routerLink="/pages/materiaprima">
+      <!-- <mat-list-item routerLink="/pages/materiaprima">
                 <mat-icon mat-list-icon>assignment</mat-icon>
                 <div mat-line>Materia Prima</div>
             </mat-list-item> -->
 
 
-        </mat-nav-list>
+    </mat-nav-list>
 
-    </mat-sidenav>
+  </mat-sidenav>
 
-    <style>
-        .contenedor{
-            display: grid; 
-            grid-template-columns: 1fr; 
-            justify-items: center; 
-            align-items: center;
-            height: 100vh;
-            background-image: url("../../../assets/San-Juan-del-sur-Nicaragua.jpg");
-            background-color: rgba(0, 0, 0, 0.5); /* Establece el color de fondo con opacidad */
-            opacity: 1; 
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .texto{
-            background-color: aquamarine;
-            columns: red;
-        }
-        .imagen{
-            opacity: 1;
-            width: 50%;
-        }
-        img{
-            width: 100%;
-        }
-    </style>
+  <style>
+    .contenedor {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("../../../assets/San-Juan-del-sur-Nicaragua.jpg");
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Establece el color de fondo con opacidad */
+      opacity: 1;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-    <mat-sidenav-content>
-        <div style="height: 90vh;">
+    .texto {
+      background-color: aquamarine;
+      columns: red;
+    }
 
-            <div class="contenedor" *ngIf="mostrarImagenBienvenida">
-               
-                <div class="imagen">
-                    <img  src="../../../assets/laslugo.png" alt="Imagen de bienvenida">
-                </div>
-            </div>
-            <router-outlet> </router-outlet>
-           
+    .imagen {
+      opacity: 1;
+      width: 50%;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+
+  <mat-sidenav-content>
+    <div style="height: 100vh;">
+      <div class="contenedor" *ngIf="mostrarImagenBienvenida">
+
+        <div class="imagen">
+          <img src="../../../assets/laslugo.png" alt="Imagen de bienvenida">
         </div>
-    
-    </mat-sidenav-content>
+      </div>
+      <router-outlet *ngIf="!mostrarImagenBienvenida"> </router-outlet>
+    </div>
+
+  </mat-sidenav-content>
 
 </mat-sidenav-container>

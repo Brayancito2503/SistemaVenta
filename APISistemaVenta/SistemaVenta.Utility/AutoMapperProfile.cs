@@ -39,6 +39,10 @@ namespace SistemaVenta.Utility
                 .ForMember(destino =>
                     destino.RolDescripcion,
                     opt => opt.MapFrom(origen => origen.IdRolNavigation.Nombre)
+                )
+                .ForMember(destino =>
+                    destino.EsActivo,
+                    opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
                 );
 
             CreateMap<UsuarioDTO, Usuario>()
