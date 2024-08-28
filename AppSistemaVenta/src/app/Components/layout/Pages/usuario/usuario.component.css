@@ -7,3 +7,8 @@ table{
     font-size: 14px;
     width: 100%;
 }
+
+.fila-inactiva {
+  background-color: #bcbcbc73; /* Color gris */
+  opacity: 0.5;
+}

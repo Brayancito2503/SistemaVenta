@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factura de Venta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: #ffffff;
+      overflow: hidden; /* Para que el contenedor se ajuste al contenido */
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #cccccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333333;
+    }
+    .header .details {
+      text-align: right;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid #cccccc;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      color: #333333;
+    }
+    tfoot td {
+      text-align: right;
+      font-weight: bold;
+    }
+    .total {
+      margin-top: 20px;
+      text-align: right;
+      font-size: 18px;
+      color: #333333;
+    }
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Factura de Venta</h1>
+      <div class="details">
+        <p><strong>N° Factura:</strong> 00001</p>
+        <!-- Otros detalles de la factura, como número de cliente, dirección, etc. -->
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Descripción Producto</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let detalle of detallesVenta">
+          <td>{{ detalle.descripcionProducto }}</td>
+          <td>{{ detalle.cantidad }}</td>
+          <td>{{ detalle.precioTexto }}</td>
+          <td>{{ detalle.totalTexto }}</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><strong>Total a Pagar:</strong></td>
+          <td><strong>S/. {{ totalPagar.toFixed(2) }}</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="total">
+      <p>Total a Pagar: S/. {{ totalPagar.toFixed(2) }}</p>
+    </div>
+
+    <div class="footer">
+      <p>¡Gracias por su compra!</p>
+      <!-- Información adicional, como políticas de devolución, datos de contacto, etc. -->
+    </div>
+  </div>
+</body>
+</html>

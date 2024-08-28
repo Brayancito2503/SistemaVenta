@@ -79,13 +79,12 @@ export class ModalProductoComponent implements OnInit {
             this._utilidadServicio.mostrarAlerta("El producto fue registrado","Exito");
             this.modalActual.close("true")
           }else
-            this._utilidadServicio.mostrarAlerta("No se pudo registrar el producto","Error")
+            // this._utilidadServicio.mostrarAlerta("No se pudo registrar el producto","Error")
+            this._utilidadServicio.mostrarAlerta(data.msg,"Error")
         },
         error:(e) => {}
       })
-
     }else{
-
       this._productoServicio.editar(_producto).subscribe({
         next: (data) =>{
           if(data.status){
@@ -97,7 +96,6 @@ export class ModalProductoComponent implements OnInit {
         error:(e) => {}
       })
     }
-
   }
 
 }

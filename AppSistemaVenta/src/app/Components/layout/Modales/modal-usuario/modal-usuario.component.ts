@@ -29,7 +29,7 @@ export class ModalUsuarioComponent implements OnInit {
     private _rolServicio: RolService,
     private _usuarioServicio: UsuarioService,
     private _utilidadServicio: UtilidadService
-  ) { 
+  ) {
 
     this.formularioUsuario = this.fb.group({
       nombreCompleto : ['',Validators.required],
@@ -91,7 +91,8 @@ export class ModalUsuarioComponent implements OnInit {
             this._utilidadServicio.mostrarAlerta("El usuario fue registrado","Exito");
             this.modalActual.close("true")
           }else
-            this._utilidadServicio.mostrarAlerta("No se pudo registrar el usuario","Error")
+            // this._utilidadServicio.mostrarAlerta("No se pudo registrar el usuario","Error")
+            this._utilidadServicio.mostrarAlerta(data.msg,"Error")
         },
         error:(e) => {}
       })
